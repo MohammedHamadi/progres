@@ -109,10 +109,11 @@
             transition: color 0.3s;
             border-radius: 10px;
         }
-        *:focus{
-            outline: none;
-         }
-
+        
+        /* Transparent tap highlight */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
         .nav-button.active {
             color: white;
             background: #019571;
